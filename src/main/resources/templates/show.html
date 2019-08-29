@@ -9,6 +9,6 @@
     Task Name: <span th:text="${todo.task_name}"></span><br/>
     Due Date: <span th:text="${todo.due_date}"></span><br/>
     Priority: <span th:text="${todo.priority}"></span><br/>
-<a th:href="@{/delete/{id}(id=${course.id})}">Delete this course</a>
+<a th:href="@{/delete/{id}(id=${todo.id})}">Delete this task</a>
 </body>
 </html>
